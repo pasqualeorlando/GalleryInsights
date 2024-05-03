@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">GalleryInsights</string>
+
+    <!-- Shared preferences keys -->
+    <string name="preference_file_key">preferences.txt</string>
+    <string name="shared_pref_user_type">USERTYPE</string>
+    <string name="shared_pref_expertise">EXPERTISE</string>
+    <string name="shared_pref_userid">USERID</string>
+
+    <!-- Login Activity & Register Activity-->
+    <string name="login_string">Accedi</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Conferma password</string>
+    <string name="hint_name">Nome</string>
+    <string name="login_button">Entra</string>
+    <string name="not_registered">Se non sei registrato <u>clicca qui</u>.</string>
+    <string name="register_string">Registrati</string>
+    <string name="register_button">Registrati</string>
+
+    <!-- UserTypeSelection Activity -->
+    <string name="go_ahead_button">Prosegui</string>
+    <string name="user_type">Tipologia utente</string>
+    <string name="user_expertise">Livello di competenze</string>
+    <string-array name="user_type_strings">
+        <item>Singolo</item>
+        <item>Gruppo generico</item>
+        <item>Scolaresca</item>
+        <item>Famiglia</item>
+    </string-array>
+    <string-array name="user_expertise_strings">
+        <item>Principiante</item>
+        <item>Standard</item>
+        <item>Esperto</item>
+    </string-array>
+
+    <!-- AppBar Strings -->
+    <string name="logout_button">Esci</string>
+    <string name="edit_user_type_button">Tipologia utente</string>
+    <string name="exhibitions_button">Esibizioni</string>
+
+    <!-- ExhibitionsActivity -->
+    <string name="detailsButton">Dettagli</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity">
+
+    <ImageView
+        android:id="@+id/backgroundUserTypeSelection"
+        android:layout_width="2194dp"
+        android:layout_height="935dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457"
+        app:srcCompat="@drawable/la_donna_con_orecchino_di_perle" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="635dp"
+        android:layout_height="908dp"
+        android:background="@color/grey_transparent"
+        android:backgroundTint="@color/grey_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutUserType"
+            android:layout_width="536dp"
+            android:layout_height="313dp"
+            android:layout_marginTop="52dp"
+            android:background="@color/white_semitransparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/userTypeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/arsenal_bold"
+                android:text="@string/user_type"
+                android:textColor="@color/brown"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/userTypeRadioGroup"
+                android:layout_width="543dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="20dp"
+                android:forceHasOverlappingRendering="false"
+                android:paddingStart="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userTypeTextView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutExpertise"
+            android:layout_width="536dp"
+            android:layout_height="313dp"
+            android:layout_marginTop="64dp"
+            android:background="@color/white_semitransparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutUserType">
+
+            <TextView
+                android:id="@+id/userExpertiseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/arsenal_bold"
+                android:text="@string/user_expertise"
+                android:textColor="@color/brown"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/userExpertiseRadioGroup"
+                android:layout_width="543dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="20dp"
+                android:forceHasOverlappingRendering="false"
+                android:paddingStart="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userExpertiseTextView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/goAheadButton"
+            android:layout_width="323dp"
+            android:layout_height="61dp"
+            android:fontFamily="@font/arsenal_bold"
+            android:text="@string/go_ahead_button"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutExpertise" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

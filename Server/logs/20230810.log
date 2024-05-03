@@ -1,0 +1,23 @@
+2023/08/10 12:07:27 server.c: 102: [INFO] Listening on port 8888
+2023/08/10 12:07:27 server.c: 111: [INFO] Waiting for connections...
+2023/08/10 12:07:44 server.c: 30: [INFO] Server shutted down
+2023/08/10 12:10:23 server.c: 103: [INFO] Listening on port 8888
+2023/08/10 12:10:23 server.c: 112: [INFO] Waiting for connections...
+2023/08/10 12:10:27 server.c: 31: [INFO] Server shutted down
+2023/08/10 12:16:26 server.c: 101: [INFO] Listening on port 8888
+2023/08/10 12:16:26 server.c: 110: [INFO] Waiting for connections...
+2023/08/10 12:16:42 server.c: 31: [INFO] Server shutted down
+2023/08/10 12:18:24 server.c: 103: [INFO] Listening on port 8888
+2023/08/10 12:18:24 server.c: 112: [INFO] Waiting for connections...
+2023/08/10 12:18:37 server.c: 33: [INFO] Server shutted down
+
+
+get_esibizioni <tipo_ut>
+get_opere <id_es> <tipo_ut>
+
+START
+<id opera> <nome> <descr> <imglink>
+
+
+
+END
