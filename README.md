@@ -29,5 +29,5 @@ For more detailed information, refer to our [documentation](https://github.com/p
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Authors
-[Pasquale Orlando](https://github.com/pasqualeorlando)
-[Alessia Verrazzo](https://github.com/alessiaverrazzo)
+- [Pasquale Orlando](https://github.com/pasqualeorlando)
+- [Alessia Verrazzo](https://github.com/alessiaverrazzo)
