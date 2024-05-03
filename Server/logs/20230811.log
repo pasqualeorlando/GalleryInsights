@@ -1,5 +1,0 @@
-2023/08/11 17:25:33 database/database.c: 113: [INFO] Database found, let me check tables
-2023/08/11 17:25:33 database/database.c: 39: [WARNING] Table enumTipoUtente NOT found. I will create it after checking them all
-2023/08/11 17:25:33 database/database.c: 67: [ERROR] Cannot create enumTipoUtente table
-2023/08/11 17:25:33 database/database.c: 127: [ERROR] Error while creating tables
-2023/08/11 17:25:33 server.c: 73: [ERROR] Cannot connect to database
